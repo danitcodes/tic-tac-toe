@@ -6,7 +6,7 @@
 
 ### By Jeff Chiu, Sarah Gilbert, Tawnee Harris, & Danielle Thompson
 
-### Project began 2.16.21
+### Project began 2.16.21. Last updated 2.18.21.
 
 </div>
 
@@ -14,7 +14,15 @@
 
 ### Get in Touch
 
+Contact us at ...
+
 danithompson74 at gmail.com | [LinkedIn](https://www.linkedin.com/in/danielle-thompson74/)
+
+[jeffchiudev@gmail.com](jeffchiudev@gmail.com)
+
+sarahgilbert064 at gmail.com | [LinkedIn](https://www.linkedin.com/in/sarahgilbertpdx)
+
+[tawneeh@icloud.com](tawneeh@icloud.com) | [LinkedIn](https://www.linkedin.com/in/tawneeh)
 
 ### Known Bugs
 
@@ -27,32 +35,11 @@ _No known bugs at this time._
 
 TODO
 
-### Objectives
-
-READ
-view list of all kegs with (name, brand, price & alcoholContent) {_done_}
-onclick to toggle form {_done_}
-
-CREATE
-onclick to create a new keg from form {_done_}
-
-READ - Details
-onclick toggle details {_done_}
-view # of pints left in a keg (full keg ~ 124 pints) {_done_}
-have keg say "OOS" when pintsLeft === 0 {stretch} {_done_}
-
-UPDATE
-onclick for decrementing quantity(inventory) - (kegs !<= 0) {_done_}
-update keg {stretch} {_done_}
-
-DELETE
-onclick to delete a keg (inventory) {stretch} {_done_}
-
 <div align="center">
 
 ## Component Diagram
 
-![Tap Room File Tree](https://i.postimg.cc/BnXjV00P/Tap-Room-File-Tree.png)
+<img src="./read-me-assets/TicTacToeTree.png">
 
 </div>
 
@@ -74,10 +61,6 @@ onclick to delete a keg (inventory) {stretch} {_done_}
 <div align="center">
 
 ---
-
-## Wireframe
-
-![Tap Room Wireframe](TODO.png)
 
 </div>
 
