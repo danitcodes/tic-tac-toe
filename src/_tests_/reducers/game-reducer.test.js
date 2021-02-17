@@ -4,10 +4,35 @@ describe('gameReducer', () => {
 
   let action;
   const gameData = {
-    // default gameData here
+    history: [{
+      squares: ['X', 'O', null, null, null, null, null, null, null],
+      }],
+      stepNumber: 3,
+      xIsNext: true,
+      id: 1
   }
+
   test('Should return a default state if no action is passed into the reducer', () => {
     expect(gameReducer({}, {type: null})).toEqual({});
+  });
+
+  test('Should change the value of the board on click', () => {
+    const { history, stepNumber, xIsNext, id } = gameData;
+    action = {
+      type: 'UPDATE_BOARD',
+      history,
+      stepNumber,
+      xIsNext,
+      id,
+    };
+    expect(gameReducer({}, action)).toEqual({
+      [id] : {
+        history,
+        stepNumber,
+        xIsNext,
+        id
+      }
+    });
   });
 
 });
