@@ -10,7 +10,7 @@ export default (state= {}, action) => {
           id,
         }
       });
-    default:
-      return state;
-  }
-};
+      default:
+        return state;
+      };
+  };
