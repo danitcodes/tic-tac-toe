@@ -22,3 +22,5 @@ describe('stepReducer', () => {
   });
 
 });
+
+// could add a test for default state
