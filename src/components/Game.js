@@ -1,5 +1,6 @@
 import React from 'react';
 import Board from './Board';
+import { connect } from 'react-redux';
 
 class Game extends React.Component {
   constructor(props) {
@@ -41,6 +42,8 @@ class Game extends React.Component {
     const history = this.state.history;
     const current = history[this.state.stepNumber];
     const winner = calculateWinner(current.squares);
+
+    console.log(this.state); // maybe move this around to experiment
 
     const moves = history.map((step, move) => {
       const desc = move ?
@@ -97,3 +100,7 @@ let calculateWinner = (squares) => {
   }
   return null;
 }
+
+Game = connect()(Game);
+
+export default Game;
